@@ -8,10 +8,13 @@
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended",
-    "prettier"
+    "prettier",
+    "plugin:@tivac/svelte/svelte"
   ],
   "plugins": [
-    "prettier"
+    "prettier",
+    "html",
+    "@tivac/svelte"
   ],
   "rules": {
     "indent": [
